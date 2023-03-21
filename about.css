@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFFFF;
+    color: #331F09
+}
+
+header {
+    display: flex;
+    /* justify-content: space-between;    */
+    align-items: center;
+    gap: 100px;
+    padding: 18px 76px 88px 76px;
+}
+
+.portfolio {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    color: #331F09;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 76px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 56px;
+    color: #331F09;
+}
+
+.about {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 56px;
+    color: #FF9D2F;
+}
+
+a {
+    text-decoration: none;
+    /* text-decoration-color: #331F09; */
+}
+
+.section_one {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.p_div {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 56px;
+    color: #331F09;
+    padding: 0px 100px;
+    width: 64%;
+}
+
+.george_div {
+    width: 35%;
+}
+
+.george {
+    width: 100%;
+}
+
+.small_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 96px;
+}
+
+.completed {
+    background-color: #FFF5EB;
+    border-bottom: 1px solid #FF9D2F;
+    border-radius: 10px;
+}
+
+.reviews {
+    background-color: #FFF5EB;
+    border-bottom: 1px solid #FF9D2F;
+    border-radius: 10px;
+}
+
+.one {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #553410;
+}
+
+.two {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 56px;
+    color: #FF9D2F;
+}
+
+.three {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #FF9D2F;
+}
+
+.four {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 56px;
+    color: #553410;
+}
+
+.section_two {
+    padding: 77px 90px 105px 120px;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    color: #331F09;
+    margin-bottom: 80px;
+}
+
+.designer {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #FF9D2F;
+}
+
+.thejustproject {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #331F09;
+}
+
+.feb {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #331F09;
+}
+
+.lag {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #331F09;
+    border-left: 3px solid #FF9D2F;
+    padding: 4px 8px;
+}
+
+.five {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    color: #331F09;
+}
+
+.front {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #FF9D2F;
+}
+
+.zuri {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #331F09;
+}
+
+.oct {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #331F09;
+}
+
+.lagos {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #331F09;
+    border-left: 3px solid #FF9D2F;
+    padding: 4px 8px;
+}
+.six {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    color: #331F09;
+}
+
+.first_div {
+    display: flex;
+    gap: 120px;
+    justify-content: space-between;
+}
+
+.exp_one {
+    width: 50%;
+}
+
+.exp_two {
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    width: 40%;
+}
