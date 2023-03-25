@@ -33,21 +33,31 @@ header h3 {
   font-size: 2.6rem;
 }
 header nav a {
-  margin: 0 15px;
+  margin: 0 8px;
   text-decoration: none;
   color: #331f09;
   font-weight: 500;
   font-size: 20px;
+  transition: all 0.2s ease-in-out;
+}
+header nav a:hover {
+  scale: 1.1;
 }
 header nav a:last-child {
   background-color: #ff9d2f;
   color: white;
-  padding: 8px 16px;
+  padding: 8px 10px;
   border-radius: 8px;
 }
-
+header nav a.active {
+  color: #ff9d2f;
+}
 header .menu-icon {
   display: none;
+  transition: all 0.2s ease-in-out;
+}
+header .menu-icon:hover {
+  scale: 1.1;
 }
 header .close-icon {
   display: none;
@@ -197,6 +207,9 @@ border: none;
 .hire-me img {
   width: 50%;
   margin: 1em 0;
+}
+.toggle-image {
+  width: 16px;
 }
 @media (max-width: 768px) {
   body {
